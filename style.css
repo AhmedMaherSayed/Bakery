@@ -1,0 +1,207 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* homepage */
+#homePage{
+    background-image: url('images/drew-coffman-1872.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+    
+   
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: lightgreen;
+    color: black;
+}
+
+.img{
+    float: left;
+   
+
+}
+.navContent{
+    float: right;
+    
+    
+    
+}
+.clr1{
+    clear: both;
+}
+.homePageContent{
+    padding-top: 40px;
+    height: 100vh;
+    color: #fff;
+
+}
+.homePageContent p{
+    padding: 40px;
+    padding-bottom: 40px;
+    
+    
+}
+
+.btn1{
+    background-color: #8e7754;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+}
+.btn2{
+    background-color:transparent;
+    color: #fff;
+    padding: 15px;
+    border-color: #fff;
+    border-radius: 7px;
+}
+/* aboutPage */
+.aboutImg{
+    
+    float: left;
+    display: 50%;
+    height: 100vh;
+    padding: 40px;
+    
+
+}
+.aboutContent{
+    
+    float: right;
+    text-align: center;
+    display: 50%;
+    height: 100vh;
+    overflow: hidden;
+    padding-top: 40px;
+    
+    
+}
+.clr{
+    clear: both;
+}
+
+/* our offer */
+.offerContent{
+    float: left;
+    padding-top: 50px;
+    text-align: center;
+    
+    height: 100vh;
+}
+.offerImg{
+    float: right;
+    padding-top: 30px;
+    
+    height: 100vh;
+    background-position: center center;
+    
+}
+/* Gallery */
+#gallery{
+    text-align: center;
+    
+    height: 100vh;
+}
+.item{
+    text-align: center;
+    float: left;
+    padding: 0px 10px;
+    
+
+}
+/* blog */
+#blog{
+   
+    
+    padding: 50px;
+    height: 100vh;
+    
+    
+}
+.blogContent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.blogContent{
+    float: left;
+    text-align: center;
+    padding: 40px;
+    
+}
+.blogContent h2, p{
+    padding: 10px;
+}
+#demo{
+    text-align: left;
+    padding: 30px;
+}
+.blogImg{
+    float: right;
+}
+.icon{
+    float: left;
+    padding-right: 10px;
+    margin:auto;
+}
+.text{
+    float:left;
+    
+
+}
+/* contact */
+#contact{
+    background-color: #403d38;
+    
+    
+}
+.aboutUs, .whyWeAreSpecial, .openingHours, .contactDetails{
+    float: left;
+    width:25%;
+    color: #969693;
+    padding: 40px 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+.contactDetails li a {
+    display: block;
+    color: #969693;
+    text-align: center;
+    padding: 4px 4px;
+    text-decoration: none;
+}
+.footer{
+    text-align: center;
+    
+    background-color: #353330;
+    padding: 40px;
+}
+.socialMedia{
+    text-align: center;
+    margin: auto;
+   
+}
